@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+/* 容器样式 */
+.container {
+  width:800px;
+  margin:0 auto;
+}
+.container-border {
+  padding: 10px;
+  border:1px solid black;
+  border-radius: 5px;
+}
+
+/* Header样式 */
+.header-filter-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.button-style {
+  width:80px;
+  background-color: #ddd;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.button-special-style {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.enter-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.inputStyle {
+  width:320px;
+}
+
+/* List区样式 */
+.list-main {
+  margin-left: 0px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 0px;
+  margin-top: 10px;
+}
+
+.liStyle {
+  list-style: none;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 5px;
+  border-bottom: 1px solid #ddd
+}
+
+.li-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.func-style{
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
